@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    min-height: 100vh;
+    margin: 0;
+    color: #eee;
+}
+
+nav.navbar {
+    background: rgba(255 255 255 / 0.1);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+nav .btn-primary {
+    background: linear-gradient(45deg, #6610f2, #007bff);
+    border: none;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(102, 16, 242, 0.6);
+    transition: background 0.3s ease;
+}
+
+nav .btn-primary:hover {
+    background: linear-gradient(45deg, #007bff, #6610f2);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.8);
+}
+
+nav .btn-outline-danger {
+    border-color: #ff4d6d;
+    color: #ff4d6d;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+nav .btn-outline-danger:hover {
+    background: #ff4d6d;
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 77, 109, 0.7);
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
+}
+
+#itemsContainer {
+    margin-top: 30px;
+    padding-bottom: 40px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    background: rgba(255 255 255 / 0.12);
+    backdrop-filter: blur(15px);
+    border-radius: 1rem;
+    border: 1px solid rgba(255 255 255 / 0.25);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    color: #f1f1f1;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+.card-img-top {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #ccc;
+    min-height: 48px;
+}
+
+.fw-bold {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+button.btn-primary {
+    background: linear-gradient(45deg, #6610f2, #007bff);
+    border: none;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(102, 16, 242, 0.6);
+    transition: background 0.3s ease;
+}
+
+button.btn-primary:hover {
+    background: linear-gradient(45deg, #007bff, #6610f2);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.8);
+}
+
+button.btn-danger {
+    background: #ff4d6d;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(255, 77, 109, 0.7);
+    transition: background 0.3s ease;
+    color: white;
+}
+
+button.btn-danger:hover {
+    background: #ff2a4c;
+    box-shadow: 0 6px 20px rgba(255, 42, 76, 0.9);
+    color: white;
+}
+
+.modal-content {
+    background: rgba(255 255 255 / 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 1rem;
+    border: 1px solid rgba(255 255 255 / 0.3);
+    color: #eee;
+}
+
+.modal-header .btn-close {
+    filter: brightness(0) invert(1);
+}
+
+label {
+    color: #ddd;
+    font-weight: 600;
+}
+
+input.form-control,
+textarea.form-control {
+    background: rgba(255 255 255 / 0.2);
+    border: 1px solid rgba(255 255 255 / 0.4);
+    color: #eee;
+    transition: background 0.3s, border-color 0.3s;
+    border-radius: 0.5rem;
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+    background: rgba(255 255 255 / 0.35);
+    border-color: #6610f2;
+    color: #fff;
+    box-shadow: 0 0 8px #6610f2;
+    outline: none;
+}
+
+.modal-footer {
+    border-top: none;
+    padding-top: 0;
+    padding-bottom: 1.25rem;
+}
+
+button.btn-success {
+    background: linear-gradient(45deg, #28a745, #218838);
+    border: none;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.7);
+    transition: background 0.3s ease;
+}
+
+button.btn-success:hover {
+    background: linear-gradient(45deg, #218838, #28a745);
+    box-shadow: 0 6px 20px rgba(33, 136, 56, 0.9);
+}
